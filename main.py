@@ -14,8 +14,8 @@ from PyPDF2 import PdfReader
 # Parte 2:
 def main():
     path_da_pasta = input("Qual o caminho (path) da pasta"
-                          "que você quer buscar?")
-    palavra_desejada = input("Qual a palavra que você deseja procurar?")
+                          " que você quer buscar?")
+    palavra_desejada = input("Qual a palavra que você deseja procurar? ")
 
     # Parte 4:
     arquivos_encontrados = buscador_de_palavras(path_da_pasta,
